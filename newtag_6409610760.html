@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test new tag cs369</title>
+</head>
+<body>
+    <section><!--ไว้แบ่ง section ของcontent-->
+        <h1>Ruby</h1>
+        <h3><ruby> New <rp>(</rp><rt>แท็ก</rt><rp>)</rp> Tag <rp>(</rp><rt>ใหม่</rt><rp>)</rp>  </ruby></h3><!---tag เพิ่มคำอธิบายขนาดเล็กด้านบนcontent โดยข้อความขนาดเล็กจะอยู่ใน tag rt ส่วน rp จะใช้ระบุเป็นเป็นศัพท์ที่ใช้เป็นฐานโดยดูโดยย้อนหลัง tag rp-->
+    </section>
+
+    <section>
+        <h1>Figure</h1>
+        <figure><!---เป็นที่จัดสัดส่วน content บางส่วนที่ต้องการแสดง-->
+            <img src="https://www.shutterstock.com/image-photo/young-handsome-man-beard-wearing-600nw-1680559948.jpg" />
+            <figcaption>A person who confuse with something?</figcaption><!---ส่วนเพิ่มเติมของ figure ที่จะทำให้สามารถเพิ่มข้อความกำกับได้-->
+        </figure>
+    </section>
+
+    <section>
+        <h1>Details</h1>
+        <details>
+            <summary>
+            I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+            A keyboard.
+        </details><!---เป็น tag สำหรับสร้างกล่องแสดงข้อความเพิ่มเติม โดยใช้ tag summary เป็น caption อธิบาย แล้วกดเพื่อ trigger ให้ tag detail แสดง content ออกมาโดย หากไม่มี summary default ที่แสดงจะเป็น Detail -->
+    </section>
+
+</body>
+</html>
